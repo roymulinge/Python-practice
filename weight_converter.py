@@ -18,7 +18,8 @@ while True:
             unit = "K"
         else:
             print("Invalid unit!")
+            continue
 
-        print(f"You weight is {weight} {unit}")
+        print(f"You weight is {round(weight, 1)} {unit}")
     except ValueError:
         print("Invalid weight! Try again")
