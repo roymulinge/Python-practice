@@ -1,7 +1,7 @@
 #Weight converter
 
 while True:
-    quit = input("Press Q to quit program or enter to continue: ")
+    quit = input("Press Q to quit program or enter to continue: ").upper()
     if quit == "Q":
         break
     weight = float(input("Enter your weight: "))
