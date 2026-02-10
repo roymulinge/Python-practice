@@ -3,6 +3,7 @@
 while True:
     quit = input("Press Q to quit program or enter to continue: ").upper()
     if quit == "Q":
+        print("Run app to convert weight!")
         break
     weight = float(input("Enter your weight: "))
     unit = input("Enter unit of measurement(K for kgs, L for lbs): ").upper()
